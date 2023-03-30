@@ -16,7 +16,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Publish to Registry
-      uses: elgohr/Publish-Docker-Github-Action@master
+      uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         name: pzhlkj6612/test-env-focal
         username: ${{ secrets.DOCKER_USERNAME }}
